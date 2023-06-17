@@ -28,8 +28,8 @@ jobs:
       id: docker_build
       uses: docker/build-push-action@v3
       with:
-        context: PyUrlViewer/
+        context: python/
         push: true
-        tags: ghcr.io/tigattack/pyurlviewer:latest
+        tags: ghcr.io/tigattack/url-viewer:latest,ghcr.io/tigattack/pyurlviewer:latest
         cache-from: type=gha
         cache-to: type=gha,mode=max
