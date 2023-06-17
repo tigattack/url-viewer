@@ -1,0 +1,11 @@
+{
+  "name": "url-viewer",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "wrangler build",
+    "publish": "wrangler publish"
+  },
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.21.0"
+  }
+}

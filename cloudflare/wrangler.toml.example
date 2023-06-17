@@ -1,0 +1,10 @@
+name = "url-viewer"
+type = "javascript"
+account_id = "<YOUR_CLOUDFLARE_ACCOUNT_ID>"
+workers_dev = true
+route = ""
+
+[env.production]
+zone_id = "<YOUR_CLOUDFLARE_ZONE_ID>"
+route = "https://example.com/*" # Replace with the desired route for your worker
+vars = {}

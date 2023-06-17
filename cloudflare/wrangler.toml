@@ -1,0 +1,9 @@
+name = "url-viewer"
+type = "javascript"
+account_id = "5183d97c841b03c4cd7948273e4b9171"
+workers_dev = true
+route = ""
+
+[env.production]
+zone_id = "ca09dd056ac4a3a1044cd3986a7ba289"
+route = "url.tiga.tech/*"
