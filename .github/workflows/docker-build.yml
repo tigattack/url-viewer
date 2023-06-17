@@ -6,6 +6,9 @@ on:
       - 'python/**'
   workflow_dispatch:
 
+permissions:
+  packages: write
+
 jobs:
   build:
     name: Build image
